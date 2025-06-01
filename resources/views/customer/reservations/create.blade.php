@@ -31,6 +31,7 @@
                     <form method="POST" action="{{ route('customer.reservations.store') }}" class="space-y-6" id="booking-form">
                         @csrf
 
+                        
                         <!-- Lesson Package Selection -->
                         <div>
                             <h3 class="text-lg font-medium mb-4">1. Choose a Lesson Package</h3>
